@@ -1,0 +1,150 @@
+body
+{
+	box-sizing: border-box;
+}
+.h1
+{
+	text-shadow: 1 1 5px #800080, 2 2 10px #FF00FF;
+}
+.image{
+	p{
+		margin-top: 20px;
+	}
+}
+.myself{
+	text-align: right;
+	color: white;
+	background-color: blue;
+}
+.mySlides {
+	display:none;
+	height: 150%;
+}
+
+.myself{
+	background-color: blue;
+}
+.sis{
+	text-align: right;
+	color: white;
+	padding: 2px;
+	background: blue;
+}
+.footer{
+	position: auto;
+	left: 0;
+	bottom: 0;
+	width: 90%;
+	height: auto;
+	background-color: #35383c;
+	padding: 10px;
+	color: white;
+	background-position: 50% 80%;
+	
+}
+.bluetext{
+	background-color: : none;
+	color: black;
+}
+.m{
+	border: 1px solid black;
+}
+.Me{
+	padding-top: 40px;
+	background-color: none;
+	color: red;
+
+}
+.o{
+	background-color: none;
+	color: red;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 32%;
+  height:25%;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+} 
+.c{
+display: flex;
+/*position: relative;
+overflow: hidden;*/
+/*height: auto;*/
+width: 80%;
+}
+div.c > 	div.f
+{
+	position: absolute;
+	width: 25%;
+
+}
+.footer{
+	display: flex;
+	width: 100%
+}
+.bluetext{
+	color: black;
+}
+.dropbtn{
+	background-color: black;
+	color: red;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	min-width: 160px
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: red
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.btn-primary{
+	background-color: #ff0000;
+	border-color: #000000; 
+}
+
+.btn-primary:hover{
+	background-color: #ff0000;
+	border-color: #000000; 
+}
+.n{
+	color: red;
+}
+.page-footer{
+	background-color: black;
+	color: red;
+}
+.navbar{
+	background-color: red;
+	opacity: 0.7;
+	color: red;
+}
+.page-footer{
+	background-color: black
+}
